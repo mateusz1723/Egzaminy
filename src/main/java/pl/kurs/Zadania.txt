@@ -1,0 +1,33 @@
+Zadanie 1:
+Za pomoca scannera zapytaj uzytkownika o liczby rozdzielone spacja
+np:
+- Podaj liczby
+10 20 30 40 50
+
+sposrod podanych liczb wypisz:
+- najwieksza
+- najmniejsza
+- liczbe ktora ma najwiecej dzielnikow
+- ilosc liczb pierwszych
+
+Zadanie 2:
+Stworz klase Produkt (nazwa, cena, kategoria), nastepnie stworzy w mainie tablice 5-10 produktow i wypisz:
+- srednia cene produktow kategorii AGD
+- najdrozszy produkt
+- najtanszy produkt
+- srednia cene wszystkich produktow
+- ile jest produktow drozszych niz srednia cena wszystkich produktow
+
+
+Zadanie 3:
+Stworz klase KontoBankowe (nazwa, nazwa banku, numer, pesel wlasciciela, oprocentowanie)
+na koncie mozesz robic nastepujace operacje (w formie metod)
+- wyplata
+- wyplata (ale nie mozesz wyplacic wiecej niz masz)
+- przelew kasy miedzy kontami
+kazda operacja jest logowana na koncie (jest jakas tablica histrorii operacji o pojemnosci max 100)
+fajnie bylo by gdyby byla metoda cos w stylu:
+konto.wypiszHistorieOperacji()
+i powinno ladnie wypisac:
+1. Dnia <tu data> wykonano operacje <nazwa> na kwote <kwota>
+gdzie nazwa to nazwa operacji, wplata/wyplata/przelew, a kwota to ... kwota:)
